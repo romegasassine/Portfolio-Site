@@ -1,12 +1,22 @@
 h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15%;
 }
 
-h4{
+h5{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
 }
 
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
+img{
+    margin-top: 15%;
+}
+
+#resume-button{
+    margin-top: 5%;
+}
