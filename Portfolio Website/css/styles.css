@@ -19,4 +19,14 @@ img{
 
 #resume-button{
     margin-top: 5%;
+    position: relative;
+    left: 280px;
 }
+
+#intro-text
+{
+    position:relative;
+    left: 15px;
+}
+
+
