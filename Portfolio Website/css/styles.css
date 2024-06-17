@@ -11,7 +11,6 @@ p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-
 img{
     margin-top: 15%;
 }
@@ -36,13 +35,21 @@ img{
     padding-left: 10%;
 }
 
+#contact-intro{
+  font-family: "Merriweather", serif;
+}
+
+#about-me{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
 .down-arrow {
     position: absolute;
     top: calc(100vh - 60px);
     left: calc(50% - 14px);
     width: 0;
     height: 30px;
-    border: 2px solid;
     border-radius: 1px;
     animation: jumpInfinite 1.5s infinite;
   }
