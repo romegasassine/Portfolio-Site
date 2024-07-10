@@ -15,6 +15,10 @@ img{
     margin-top: 15%;
 }
 
+h3{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 #resume-button{
     margin-top: 5%;
     position: relative;
@@ -25,7 +29,7 @@ img{
 {
     position:relative;
     left: 60px;
-    font-family: "Merriweather", serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 400;
     font-style: normal;
 }
@@ -52,12 +56,25 @@ img{
   padding: 0 20px;
 }
 
-#carouse-caption{
+#carousel-caption{
   position: absolute;
   bottom: 10px;
   color: black;
   padding: 10px;
   text-align: center;
+  font-stretch: wider;
+  font-style: italic;
+  font-weight: 495;
+}
+
+#project-text{
+  position: relative;
+  top: 10px;
+  font-weight: bold;
+}
+
+#contact-me-message{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav ul li{
@@ -91,7 +108,7 @@ nav ul li a:hover i{
 
 .down-arrow {
     position: absolute;
-    top: calc(100vh - 60px);
+    top: calc(100vh - 80px);
     left: calc(50% - 14px);
     width: 0;
     height: 30px;
@@ -114,7 +131,7 @@ nav ul li a:hover i{
 
   @keyframes jumpInfinite {
     0% {
-      margin-top: 0;
+      margin-top: 0px;
     }
     50% {
       margin-top: 20px;
